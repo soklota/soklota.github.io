@@ -6,17 +6,25 @@ body{
 .assignment {
     background: lightgray;
     margin: 10px;
+    margin-bottom: 30px;
     display: flex;
     padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 8px rgb(41, 10, 56);
 }
 
 .assignment img {
     width: 200px;
     padding: 10px;
+    border-radius: 5px;
 
 }
 
 h1{
     color: rgb(41, 10, 56);
     text-align: center;
+}
+
+.assignment a:hover {
+    color:rgb(41, 10, 56);
 }

@@ -4,7 +4,7 @@ body{
 }
 
 .assignment {
-    width: 21;
+    width: 21%;
     display: flex;
     background: lightgray;
     margin: 10px;

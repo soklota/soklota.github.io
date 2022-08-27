@@ -1,37 +1,30 @@
 body{
-    background: rgb(201, 192, 255);
+    background: rgb(234, 207, 119);
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.assignment {
-    width: 21%;
-    background: lightgray;
-    margin: 10px;
-    margin-bottom: 30px;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 5px 8px rgb(41, 10, 56);
-}
-
-.assignments {
+.github {
+    color:rgb(97, 17, 17);
     display:flex;
     flex-wrap: wrap;
 }
 
-.assignment img {
-    width: 200px;
-    border: 2px solid #8c4d3f;
-    margin-right: 20px;
-    border-radius: 5px;
-    display: block;
-    margin: auto;
+.resume {
+    color:rgb(97, 17, 17);
+    display:flex;
+    flex-wrap: wrap;
 }
 
+
 h1{
-    color: rgb(41, 10, 56);
+    color: rgb(0, 0, 0);
     text-align: center;
 }
 
-.assignment a:hover {
-    color:rgb(41, 10, 56);
+.resume a:hover {
+    color:rgb(209, 97, 97);
+}
+
+.github a:hover {
+    color:rgb(209, 97, 97);
 }

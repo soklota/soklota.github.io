@@ -1,24 +1,30 @@
 body{
-    background: rgb(234, 207, 119);
-    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(235,190,224);
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .github {
-    color:rgb(97, 17, 17);
-    display:flex;
-    flex-wrap: wrap;
+    color:rgb(0,0,0);
+    text-align: left;
 }
-
+.p1{
+    text-align: center;
+    padding-left: 300px;
+}
 .resume {
-    color:rgb(97, 17, 17);
-    display:flex;
-    flex-wrap: wrap;
+    color:rgb(0,0,0);
+    text-align: left;
 }
-
+p{
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 500px;
+}
 
 h1{
+  
     color: rgb(0, 0, 0);
-    text-align: center;
+    text-align: right;
 }
 
 .resume a:hover {

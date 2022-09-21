@@ -1,19 +1,18 @@
 .grid-container {
     display: grid;
-    grid-template-rows: 1200px 1900px 1200px;
-    grid-template-columns: 1900px 1900px 1900px;
-    gap: 10px;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
     background-color: black;
-    padding: 150px;
+    padding: 15px;
   }
   
   .grid-container > div {
     /* background-color: rgba(255, 255, 255, 0.8); */
     text-align: center;
-    padding: 20px 0;
-    font-size: 60px;
+    padding: 0px 0;
+    font-size: 20px;
+    
   }
-  
 
   #myDIV {
     animation: mymove 5s infinite;
@@ -33,19 +32,25 @@ body{
   grid-column: 1 / span 3;
 }
 
-.github {
+
+p3{
     color:rgb(241, 236, 236);
     text-align: left;
+    padding-top: 20px;
 }
 
-.resume {
+p4{
     color:rgb(241, 236, 236);
     text-align: left;
+    padding-top: 20px;
 }
+
  p{
     color:rgb(241, 236, 236);
     text-align: center;
-    padding-right: 500px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 30px;
    
   
 } 
@@ -58,8 +63,7 @@ h1{
   
     color: rgb(241, 236, 236);
     text-align: center;
-    padding-top: 400px;
-    font-size: 150px;
+    font-size: 50px;
 }
 
 .resume a:hover {

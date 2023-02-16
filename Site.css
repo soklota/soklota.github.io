@@ -1,7 +1,9 @@
-@font-face{
-    font-family: system-ui;
+@font-face {
+    font-family: "Open_Sans";
+    font-weight: 200;
+    font-display: fallback;
+    src: url("static/OpenSans/OpenSans-Regular.ttf");
 }
-
 html {
     scroll-behavior: smooth;
 }

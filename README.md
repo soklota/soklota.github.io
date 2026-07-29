@@ -1,2 +1,4 @@
 # Syd
-This is my portfolio!
+This is my portfolio! 
+
+https://soklota.github.io/Syd/

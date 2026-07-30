@@ -1,0 +1,12 @@
+/* App.css */
+.app {
+  margin: 0;
+  padding: 1rem;
+  background-color: #f4f746be;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}

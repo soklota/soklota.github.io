@@ -1,0 +1,43 @@
+/*intro.css*/
+.intro {
+  color: #42253B; /*color of text*/
+}
+
+.welcome__message {
+  padding-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.intro__character {
+  width: 117px;
+  height: 207px;
+  background-image: url('../assets/spritesheet.png');
+  background-repeat: no-repeat;
+  image-rendering: pixelated;
+  animation: breathe 2.4s steps(4) infinite;
+}
+
+@keyframes breathe {
+  from { background-position: 0 0; }
+  to { background-position: -468px 0; }
+}
+
+.intro__tagline {
+  text-align: center;
+  font-size: 3rem;
+  padding: 1rem;
+  height: 60px;
+  width: 300px;
+}
+
+.intro__text {
+  padding-top: 4rem;
+  display: flex;
+  font-size: 2rem;
+  text-align: center;
+  justify-content: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}

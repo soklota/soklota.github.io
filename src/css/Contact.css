@@ -2,12 +2,9 @@
     padding-left: 1rem;
     padding-right: 1rem;
     padding-top: 10rem;
-    font-size: 1.5rem;
 }
 
-.contact__title {
-    padding-left: 1rem;
-    font-size: 2.5rem;
+.contact__title { /*inside contact content*/
     color: #42253B;
     text-align: left;
 }
@@ -15,16 +12,17 @@
 .contact__methods{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items:center;
     gap: 1rem;
-  
+    color: #42253B;
+    padding-left: 1rem;
 
 }
 
 .method__email{
     text-align: center;
     background: radial-gradient(circle, #95a3b3, rgb(171 250 169));
-    padding: 1.7rem;
+    padding: .5rem;
     border-radius: 12px;
     box-shadow: 5px 5px 20px rgba(76, 44, 105, 0.5);
     min-width: 400px;
@@ -34,7 +32,7 @@
 .method__phone{
     text-align: center;
     background: radial-gradient(circle, #95a3b3, rgb(171 250 169));
-    padding: 1.7rem;
+    padding: .5rem;
     border-radius: 12px;
     box-shadow: 5px 5px 20px rgba(76, 44, 105, 0.5);
     min-width: 400px;
@@ -44,9 +42,15 @@
 .method__linkedin{
     text-align: center;
     background: radial-gradient(circle, #95a3b3, rgb(171 250 169));
-    padding: 1.7rem;
+    padding: .5rem;
     border-radius: 12px;
     box-shadow: 5px 5px 20px rgba(76, 44, 105, 0.5);
     min-width: 400px;
     width: fit-content;
 }
+
+a{
+    text-decoration: none;
+    color: #42253B;
+}
+/*add font size adjustments for phone and tablet screens*/

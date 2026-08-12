@@ -7,7 +7,7 @@ function AboutMe() {
     return(
         <section id='intro'>
         <div className='about__content'>
-        <div className='about__title'>~ About Me ❁❁</div>
+        <div className='about__title'><h1>~ About Me ❁❁</h1></div>
           <div className='bio'>
                 <p className='bio__text'>
                     After graduating from the University of South Carolina with a 

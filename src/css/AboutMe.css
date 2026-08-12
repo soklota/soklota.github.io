@@ -6,21 +6,21 @@
 }
 
 .about__title {
-    padding-left: 1rem;
-    font-size: 2.5rem;
     color: #42253B;
 }
 
-.bio {
-    font-size: 1.5rem;
+.bio { /*bio includes the img*/
+   
     color: #42253B; /*color of text*/
     display: flex;
-    gap: 2rem;
+    justify-content: space-evenly;
     align-items: center;
     
 }
 
 .bio__text {
+    height: auto;
+    max-width: 30%;
     text-align: left;
     background: radial-gradient(circle, #95a3b3, rgb(171 250 169));
     padding: 1.7rem;
@@ -29,7 +29,17 @@
 }
 
 img {
-    height: 300px;
+    height: auto;
+    max-width: 30%;
     border-radius: 12px;
     box-shadow: 5px 5px 20px rgba(76, 44, 105, 0.5);
 }
+
+
+h1{
+    font-weight: 100;
+    font-size: 3rem;
+}
+
+p, body { font-size: 1.125rem; }
+/*add font size adjustments for phone and tablet screens*/

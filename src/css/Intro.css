@@ -41,3 +41,12 @@
   padding-left: 20%;
   padding-right: 20%;
 }
+
+h1{
+    font-weight: 100;
+    font-size: 3rem;
+}
+
+p, body { font-size: 1.125rem; }
+
+/*add font size adjustments for phone and tablet screens*/

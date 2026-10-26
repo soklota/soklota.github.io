@@ -1,6 +1,6 @@
 // Navbar.jsx
 import '../css/Navbar.css';
-import MyResume from '../assets/Oklota_Sydney Resume 2026.pdf';
+import MyResume from '../assets/Oklota_Sydney_Resume.pdf';
 
 function Navbar() {
   return (

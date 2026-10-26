@@ -3,20 +3,20 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1.5rem;
- padding-top: 50px;
+  padding-top: 50px;
 } 
 
 .projects__heading{
-  padding-left: 1rem;
-  font-size: 2.5rem;
-  color: #EDB1B0;
+
+  font-size: 2rem;
+  color: #fff;
 }
 
 .projects{
   padding-left: 1rem;
   padding-right: 1rem;
-  padding-top: 10rem;
-  color: #42253B;
-  font-size: 1.5rem;
+  padding-top: 50px;
+  color: #fff;
+  font-size: 1rem;
 }
 /*add font size adjustments for phone and tablet screens*/

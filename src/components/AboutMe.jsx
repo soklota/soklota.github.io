@@ -1,13 +1,13 @@
 import '../css/AboutMe.css';
 import Collage from '../assets/collage.png';
-
+ 
 
 function AboutMe() {
 
     return(
         <section id='intro'>
         <div className='about__content'>
-        <div className='about__title'><h1>\AboutMe</h1></div>
+        <div className='about__title'><h1>\bio</h1></div>
           <div className='bio'>
                 <p className='bio__text'>
                     After graduating from the University of South Carolina with a 
@@ -23,7 +23,7 @@ function AboutMe() {
                      media, designing quirky characters for a small horror game I'm developing, 
                      baking, or serving as my own nail tech and hairdresser.
                 </p>
-                <img src={Collage} alt='Pictures of Me'></img>
+          
             </div> 
         </div>
         </section>

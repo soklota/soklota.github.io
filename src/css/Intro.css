@@ -29,11 +29,11 @@
 .intro__content {
   position: absolute;
   top: 50%;
-  right: 5%;
+
   transform: translateY(-50%);
   display: flex;
   align-items: center;
-  gap: 10rem;
+  gap: 15rem;
   z-index: 1;
   color: #fff;
   text-align: center;
@@ -62,7 +62,7 @@
   .intro__content {
     position: relative;
     top: auto; left: auto;
-    transform: none;
+    transform: scale(.5);
     flex-direction: column-reverse;
     gap: 1rem;
   }

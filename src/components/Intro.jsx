@@ -1,31 +1,19 @@
 import '../css/Intro.css';
-import Typewriter from 'typewriter-effect';
-import MyImage from '../assets/spritesheet.png';
+import MyImage from '../assets/pic_of_me3.jpg';
+import NightSky from '../components/NightSky';
+import NameAnimation from './NameAnimation';
 
 
-function Intro() {
-   
-    return (
-        <section className='intro'>
-            <div className='welcome__message'>
-                <div className='intro__character'></div>
-                    <div className='intro__tagline'>
-                        <Typewriter
-                        onInit={(typewriter) => {
-                        typewriter
-                        .typeString("Hey, it's Syd.")
-                        .start();  }}
-                        />
-                    </div>
-            </div>
-                <div className='intro__text'>
-                    <p>I am a dedicated problem solver with a passion for
-                         innovation, technology, and continuous learning.</p>
-               
-                </div>
-          
-        </section>
-    )
+export default function Intro() {
+  return (
+    <div className="intro">
+      <NightSky />
+      <div className="intro__content">
+        <img className="intro__photo" src={MyImage} alt="Photo of Syd" />
+        <div className='intro__name'>
+        <NameAnimation name="Sydney Oklota" />
+        </div>
+      </div>
+    </div>
+  );
 }
-
-export default Intro;

@@ -1,0 +1,21 @@
+.cursive-name {
+  width: min(90vw, 800px);
+  height: auto;
+  overflow: visible;
+}
+.cursive-name text {
+  font-family: 'Great Vibes', cursive;
+  font-size: 140px;
+  fill: transparent;
+  stroke: #fff;
+  stroke-width: 1.5;
+  stroke-dasharray: 1500;
+  stroke-dashoffset: 1500;
+  animation:
+    write 3.5s ease-in-out forwards,
+    fill-in 1s ease 2.2s forwards;
+  filter: drop-shadow(0 0 8px rgba(180, 200, 255, 0.6));
+}
+
+@keyframes write   { to { stroke-dashoffset: 0; } }
+@keyframes fill-in { to { fill: #fff; stroke-width: 0; } }

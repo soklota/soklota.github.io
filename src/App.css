@@ -1,8 +1,7 @@
 /* App.css */
 .app {
-  margin: 0;
-  padding: 1rem;
-  background-color: #f4f746be;
+  border-radius: 20px;
+  background-color: #050816;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }

@@ -1,11 +1,11 @@
 .contact__content {
     padding-left: 1rem;
     padding-right: 1rem;
-    padding-top: 10rem;
+    padding-top: 50px;
 }
 
 .contact__title { /*inside contact content*/
-    color: #42253B;
+    color: #EDB1B0;
     text-align: left;
 }
 
